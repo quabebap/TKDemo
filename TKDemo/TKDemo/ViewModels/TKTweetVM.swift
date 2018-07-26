@@ -28,7 +28,6 @@ class TKTweetVM: NSObject {
         do{
             let results = try context.fetch(request)
             for tkTweet in results as! [TKTweet]{
-                print("data -> \(tkTweet.tweet_content)");
                 self._tweets.append(tkTweet);
             }
             

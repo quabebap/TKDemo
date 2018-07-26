@@ -15,9 +15,11 @@ protocol TKChatInputBarViewProtocol{
     
     
 }
+
 let kHeightOfLine:Int = 40;
 let kHeightOfChatBar:Int = 50;
 let kMaximumLineText:Int = 5;
+
 class TKChatInputBarView : UIView, UITextViewDelegate
 {
     var delegate : TKChatInputBarViewProtocol?
@@ -73,7 +75,6 @@ class TKChatInputBarView : UIView, UITextViewDelegate
     
     //Limit  text
     func textViewDidChange(_ textView: UITextView) {
-        print(#function)
         let lineNumber = Int( textView.contentSize.height / (textView.font?.lineHeight)!) ;
         
         if lineNumber <= kMaximumLineText{
