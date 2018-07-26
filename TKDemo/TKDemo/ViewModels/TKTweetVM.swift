@@ -59,11 +59,21 @@ class TKTweetVM: NSObject {
         }
         
         var pieces = tweet.components(separatedBy: CharacterSet.whitespaces);
+        
         // exist tweet 50 character without whitespace
-        if pieces.contains(where: { (tweet) -> Bool in
-            return tweet.count > kLimitCharactersTweet
-        }){
-            return false
+        if pieces.count == 1{
+            if pieces[0].count > kLimitCharactersTweet{
+                return false
+            }
+        }
+        else{
+            // exist tweet 46 character without whitespace
+            if pieces.contains(where: { (tweet) -> Bool in
+                return tweet.count > kLimitCharactersTweet - kNumberCharactersPrefix
+            }){
+                return false
+            }
+            
         }
         
         // make tweet/subtweet
