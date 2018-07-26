@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0C577821082BCD00E2F151 /* TKTweetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0C577721082BCD00E2F151 /* TKTweetVM.swift */; };
+		FE0C577921082BCD00E2F151 /* TKTweetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0C577721082BCD00E2F151 /* TKTweetVM.swift */; };
+		FE5BF8E12106DAFD006B171F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF8E02106DAFD006B171F /* AppDelegate.swift */; };
+		FE5BF8E62106DAFD006B171F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5BF8E42106DAFD006B171F /* Main.storyboard */; };
+		FE5BF8E82106DB00006B171F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5BF8E72106DB00006B171F /* Assets.xcassets */; };
+		FE5BF8EB2106DB00006B171F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5BF8E92106DB00006B171F /* LaunchScreen.storyboard */; };
+		FE5BF8F62106DB00006B171F /* TKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF8F52106DB00006B171F /* TKDemoTests.swift */; };
+		FE5BF9132106E04D006B171F /* TKTweetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF90F2106E04D006B171F /* TKTweetVC.swift */; };
+		FE5BF9142106E05D006B171F /* TKTweetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF90F2106E04D006B171F /* TKTweetVC.swift */; };
+		FE5BF9572106FB50006B171F /* TKDemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF9552106FB50006B171F /* TKDemoModel.xcdatamodeld */; };
+		FE5BF9582106FB50006B171F /* TKDemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF9552106FB50006B171F /* TKDemoModel.xcdatamodeld */; };
+		FE75A8592109731400965344 /* TKTweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75A8582109731400965344 /* TKTweetTableViewCell.swift */; };
+		FE75A85A2109731400965344 /* TKTweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75A8582109731400965344 /* TKTweetTableViewCell.swift */; };
+		FEA97AC52107087B00305990 /* TKChatInputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA97AC42107087B00305990 /* TKChatInputBarView.swift */; };
+		FEA97AC62107087B00305990 /* TKChatInputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA97AC42107087B00305990 /* TKChatInputBarView.swift */; };
+		FEEF30B42108316A00A65CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5BF8E02106DAFD006B171F /* AppDelegate.swift */; };
+		FEEF30BA21087B5200A65CBA /* TKTweet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF30B821087B5200A65CBA /* TKTweet+CoreDataClass.swift */; };
+		FEEF30BB21087B5200A65CBA /* TKTweet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF30B821087B5200A65CBA /* TKTweet+CoreDataClass.swift */; };
+		FEEF30BC21087B5200A65CBA /* TKTweet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF30B921087B5200A65CBA /* TKTweet+CoreDataProperties.swift */; };
+		FEEF30BD21087B5200A65CBA /* TKTweet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF30B921087B5200A65CBA /* TKTweet+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5BF8F22106DB00006B171F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5BF8D52106DAFD006B171F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5BF8DC2106DAFD006B171F;
+			remoteInfo = TKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0C577721082BCD00E2F151 /* TKTweetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKTweetVM.swift; sourceTree = "<group>"; };
+		FE5BF8DD2106DAFD006B171F /* TKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5BF8E02106DAFD006B171F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE5BF8E52106DAFD006B171F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE5BF8E72106DB00006B171F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE5BF8EA2106DB00006B171F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE5BF8EC2106DB00006B171F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5BF8F12106DB00006B171F /* TKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5BF8F52106DB00006B171F /* TKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKDemoTests.swift; sourceTree = "<group>"; };
+		FE5BF8F72106DB00006B171F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5BF90F2106E04D006B171F /* TKTweetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKTweetVC.swift; sourceTree = "<group>"; };
+		FE5BF9562106FB50006B171F /* TKDemoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TKDemoModel.xcdatamodel; sourceTree = "<group>"; };
+		FE75A8582109731400965344 /* TKTweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKTweetTableViewCell.swift; sourceTree = "<group>"; };
+		FEA97AC42107087B00305990 /* TKChatInputBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKChatInputBarView.swift; sourceTree = "<group>"; };
+		FEEF30B821087B5200A65CBA /* TKTweet+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TKTweet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FEEF30B921087B5200A65CBA /* TKTweet+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TKTweet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5BF8DA2106DAFD006B171F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5BF8EE2106DB00006B171F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0C577621082B2E00E2F151 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C577721082BCD00E2F151 /* TKTweetVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE5BF8D42106DAFD006B171F = {
+			isa = PBXGroup;
+			children = (
+				FE5BF8DF2106DAFD006B171F /* TKDemo */,
+				FE5BF8F42106DB00006B171F /* TKDemoTests */,
+				FE5BF8DE2106DAFD006B171F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5BF8DE2106DAFD006B171F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BF8DD2106DAFD006B171F /* TKDemo.app */,
+				FE5BF8F12106DB00006B171F /* TKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5BF8DF2106DAFD006B171F /* TKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BF9112106E04D006B171F /* Models */,
+				FE5BF9122106E04D006B171F /* Views */,
+				FE0C577621082B2E00E2F151 /* ViewModels */,
+				FE5BF8E42106DAFD006B171F /* Main.storyboard */,
+				FE5BF8E02106DAFD006B171F /* AppDelegate.swift */,
+				FE5BF8E72106DB00006B171F /* Assets.xcassets */,
+				FE5BF8E92106DB00006B171F /* LaunchScreen.storyboard */,
+				FE5BF8EC2106DB00006B171F /* Info.plist */,
+				FE5BF9552106FB50006B171F /* TKDemoModel.xcdatamodeld */,
+			);
+			path = TKDemo;
+			sourceTree = "<group>";
+		};
+		FE5BF8F42106DB00006B171F /* TKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BF8F52106DB00006B171F /* TKDemoTests.swift */,
+				FE5BF8F72106DB00006B171F /* Info.plist */,
+			);
+			path = TKDemoTests;
+			sourceTree = "<group>";
+		};
+		FE5BF90E2106E04D006B171F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BF90F2106E04D006B171F /* TKTweetVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE5BF9112106E04D006B171F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF30B821087B5200A65CBA /* TKTweet+CoreDataClass.swift */,
+				FEEF30B921087B5200A65CBA /* TKTweet+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE5BF9122106E04D006B171F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BF90E2106E04D006B171F /* ViewControllers */,
+				FEA97AC32107087B00305990 /* TKTweet */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEA97AC32107087B00305990 /* TKTweet */ = {
+			isa = PBXGroup;
+			children = (
+				FEA97AC42107087B00305990 /* TKChatInputBarView.swift */,
+				FE75A8582109731400965344 /* TKTweetTableViewCell.swift */,
+			);
+			path = TKTweet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5BF8DC2106DAFD006B171F /* TKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5BF9052106DB00006B171F /* Build configuration list for PBXNativeTarget "TKDemo" */;
+			buildPhases = (
+				FE5BF8D92106DAFD006B171F /* Sources */,
+				FE5BF8DA2106DAFD006B171F /* Frameworks */,
+				FE5BF8DB2106DAFD006B171F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKDemo;
+			productName = TKDemo;
+			productReference = FE5BF8DD2106DAFD006B171F /* TKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE5BF8F02106DB00006B171F /* TKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5BF9082106DB00006B171F /* Build configuration list for PBXNativeTarget "TKDemoTests" */;
+			buildPhases = (
+				FE5BF8ED2106DB00006B171F /* Sources */,
+				FE5BF8EE2106DB00006B171F /* Frameworks */,
+				FE5BF8EF2106DB00006B171F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5BF8F32106DB00006B171F /* PBXTargetDependency */,
+			);
+			name = TKDemoTests;
+			productName = TKDemoTests;
+			productReference = FE5BF8F12106DB00006B171F /* TKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5BF8D52106DAFD006B171F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = TK;
+				TargetAttributes = {
+					FE5BF8DC2106DAFD006B171F = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					FE5BF8F02106DB00006B171F = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE5BF8DC2106DAFD006B171F;
+					};
+				};
+			};
+			buildConfigurationList = FE5BF8D82106DAFD006B171F /* Build configuration list for PBXProject "TKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5BF8D42106DAFD006B171F;
+			productRefGroup = FE5BF8DE2106DAFD006B171F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5BF8DC2106DAFD006B171F /* TKDemo */,
+				FE5BF8F02106DB00006B171F /* TKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5BF8DB2106DAFD006B171F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5BF8EB2106DB00006B171F /* LaunchScreen.storyboard in Resources */,
+				FE5BF8E82106DB00006B171F /* Assets.xcassets in Resources */,
+				FE5BF8E62106DAFD006B171F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5BF8EF2106DB00006B171F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5BF8D92106DAFD006B171F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE75A8592109731400965344 /* TKTweetTableViewCell.swift in Sources */,
+				FEEF30BA21087B5200A65CBA /* TKTweet+CoreDataClass.swift in Sources */,
+				FEEF30BC21087B5200A65CBA /* TKTweet+CoreDataProperties.swift in Sources */,
+				FE5BF9132106E04D006B171F /* TKTweetVC.swift in Sources */,
+				FE0C577821082BCD00E2F151 /* TKTweetVM.swift in Sources */,
+				FE5BF9572106FB50006B171F /* TKDemoModel.xcdatamodeld in Sources */,
+				FE5BF8E12106DAFD006B171F /* AppDelegate.swift in Sources */,
+				FEA97AC52107087B00305990 /* TKChatInputBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5BF8ED2106DB00006B171F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEF30B42108316A00A65CBA /* AppDelegate.swift in Sources */,
+				FEA97AC62107087B00305990 /* TKChatInputBarView.swift in Sources */,
+				FEEF30BB21087B5200A65CBA /* TKTweet+CoreDataClass.swift in Sources */,
+				FE5BF9142106E05D006B171F /* TKTweetVC.swift in Sources */,
+				FE75A85A2109731400965344 /* TKTweetTableViewCell.swift in Sources */,
+				FEEF30BD21087B5200A65CBA /* TKTweet+CoreDataProperties.swift in Sources */,
+				FE5BF9582106FB50006B171F /* TKDemoModel.xcdatamodeld in Sources */,
+				FE0C577921082BCD00E2F151 /* TKTweetVM.swift in Sources */,
+				FE5BF8F62106DB00006B171F /* TKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5BF8F32106DB00006B171F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5BF8DC2106DAFD006B171F /* TKDemo */;
+			targetProxy = FE5BF8F22106DB00006B171F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE5BF8E42106DAFD006B171F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5BF8E52106DAFD006B171F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE5BF8E92106DB00006B171F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5BF8EA2106DB00006B171F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5BF9032106DB00006B171F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE5BF9042106DB00006B171F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5BF9062106DB00006B171F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 857G3MBWQV;
+				INFOPLIST_FILE = TKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.TKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE5BF9072106DB00006B171F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 857G3MBWQV;
+				INFOPLIST_FILE = TKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.TKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE5BF9092106DB00006B171F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 857G3MBWQV;
+				INFOPLIST_FILE = TKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.TKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKDemo.app/TKDemo";
+			};
+			name = Debug;
+		};
+		FE5BF90A2106DB00006B171F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 857G3MBWQV;
+				INFOPLIST_FILE = TKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.TKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKDemo.app/TKDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5BF8D82106DAFD006B171F /* Build configuration list for PBXProject "TKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5BF9032106DB00006B171F /* Debug */,
+				FE5BF9042106DB00006B171F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5BF9052106DB00006B171F /* Build configuration list for PBXNativeTarget "TKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5BF9062106DB00006B171F /* Debug */,
+				FE5BF9072106DB00006B171F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5BF9082106DB00006B171F /* Build configuration list for PBXNativeTarget "TKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5BF9092106DB00006B171F /* Debug */,
+				FE5BF90A2106DB00006B171F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE5BF9552106FB50006B171F /* TKDemoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE5BF9562106FB50006B171F /* TKDemoModel.xcdatamodel */,
+			);
+			currentVersion = FE5BF9562106FB50006B171F /* TKDemoModel.xcdatamodel */;
+			path = TKDemoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE5BF8D52106DAFD006B171F /* Project object */;
+}
