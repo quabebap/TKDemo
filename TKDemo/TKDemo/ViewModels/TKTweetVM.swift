@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import UIKit
 let kLimitCharactersTweet:Int = 50
-let kNumberCharactersPrefix:Int = 3
+let kNumberCharactersPrefix:Int = 4
 class TKTweetVM: NSObject {
     static let sharedInstance:TKTweetVM = TKTweetVM();
     var _tweets:[TKTweet] = [TKTweet]();
@@ -71,11 +71,15 @@ class TKTweetVM: NSObject {
         var tktweets:[String] = [String]();
         var tweet:String = ""
         for item in pieces {
-            if tweet.count + item.count < kLimitCharactersTweet - kNumberCharactersPrefix{
-                tweet.append(" \(item)")
+            if tweet == ""{
+                tweet.append(item);
             }else{
-                tktweets.append(tweet);
-                tweet = " \(item)";
+                if tweet.count + item.count < kLimitCharactersTweet - kNumberCharactersPrefix{
+                    tweet.append(" \(item)")
+                }else{
+                    tktweets.append(tweet);
+                    tweet = "\(item)";
+                }
             }
         }
         
@@ -84,7 +88,7 @@ class TKTweetVM: NSObject {
         if tktweets.count > 1{
             var index:Int = 0
             while index < tktweets.count{
-                tktweets[index].insert(contentsOf: "\(index + 1)/\(tktweets.count)", at: tktweets[index].startIndex);
+                tktweets[index].insert(contentsOf: "\(index + 1)/\(tktweets.count) ", at: tktweets[index].startIndex);
                 index = index + 1;
             }
         }

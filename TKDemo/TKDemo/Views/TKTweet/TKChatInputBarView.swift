@@ -17,6 +17,7 @@ protocol TKChatInputBarViewProtocol{
 }
 let kHeightOfLine:Int = 40;
 let kHeightOfChatBar:Int = 50;
+let kMaximumLineText:Int = 5;
 class TKChatInputBarView : UIView, UITextViewDelegate
 {
     var delegate : TKChatInputBarViewProtocol?
@@ -75,7 +76,7 @@ class TKChatInputBarView : UIView, UITextViewDelegate
         print(#function)
         let lineNumber = Int( textView.contentSize.height / (textView.font?.lineHeight)!) ;
         
-        if lineNumber <= 5{
+        if lineNumber <= kMaximumLineText{
             self._heightConstraint.constant = CGFloat(kHeightOfChatBar + (lineNumber - 1) * Int(((textView.font?.lineHeight)!)));
         }
         

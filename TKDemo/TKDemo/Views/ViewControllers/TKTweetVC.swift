@@ -9,10 +9,13 @@
 import UIKit
 import Foundation
 
-let kHeightChatInputConstraint = "kHeightChatInputConstraint"
-let kAlignBottomChatInputConstraint = "kAlignBottomChatInputConstraint"
-let kTweetCellIdentifier = "kTweetCellIdentifier"
+let kHeightChatInputConstraint:String = "kHeightChatInputConstraint"
+let kAlignBottomChatInputConstraint:String = "kAlignBottomChatInputConstraint"
+let kTweetCellIdentifier:String = "kTweetCellIdentifier"
 let kFontTweetTitle:UIFont = UIFont.systemFont(ofSize: 14.0)
+let kHeightOfCellWithouTweet:CGFloat = 31.0
+let kPaddingLeftAndRightTweet:CGFloat = 10.0
+
 class TKTweetVC: UIViewController {
     @IBOutlet var _tweetTableView:UITableView!;
     @IBOutlet var _layoutConstraints:[NSLayoutConstraint]!;
@@ -98,9 +101,9 @@ extension TKTweetVC:UITableViewDelegate,UITableViewDataSource,UITableViewDataSou
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if self._tkTweetVM?._tweets[indexPath.section].heightOfTweets[indexPath.row] == nil{
             if self._tkTweetVM?._tweets[indexPath.section].tweet_subs?.count == 0{
-                self._tkTweetVM?._tweets[indexPath.section].heightOfTweets[indexPath.row] = (self._tkTweetVM?._tweets[indexPath.section].tweet_content?.height(withConstrainedWidth: (tableView.frame.size.width - 10.0), font: kFontTweetTitle))! + 31.0
+                self._tkTweetVM?._tweets[indexPath.section].heightOfTweets[indexPath.row] = (self._tkTweetVM?._tweets[indexPath.section].tweet_content?.height(withConstrainedWidth: (tableView.frame.size.width - kPaddingLeftAndRightTweet), font: kFontTweetTitle))! + kHeightOfCellWithouTweet
             }else{
-                self._tkTweetVM?._tweets[indexPath.section].heightOfTweets[indexPath.row] = (self._tkTweetVM?._tweets[indexPath.section].tweet_subs?.object(at: indexPath.row) as! String).height(withConstrainedWidth: (tableView.frame.size.width - 10.0), font: kFontTweetTitle) + 31.0
+                self._tkTweetVM?._tweets[indexPath.section].heightOfTweets[indexPath.row] = (self._tkTweetVM?._tweets[indexPath.section].tweet_subs?.object(at: indexPath.row) as! String).height(withConstrainedWidth: (tableView.frame.size.width - kPaddingLeftAndRightTweet), font: kFontTweetTitle) + kHeightOfCellWithouTweet
             }
             
         }

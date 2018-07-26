@@ -9,7 +9,7 @@
 import UIKit
 let kTweetBackgroundColor:UIColor = UIColor.init(red: 241.0/255.0, green: 241.0/255.0, blue: 243.0/255.0, alpha: 1.0)
 let kTweetBackgroundColorHighlight:UIColor = UIColor.init(red: 0, green: 109.0/255.0, blue: 240.0/255.0, alpha: 1.0).withAlphaComponent(0.2)
-
+let kTimeHighlightTweetRecent:Double = 20.0
 class TKTweetTableViewCell: UITableViewCell {
     @IBOutlet var _title:UILabel!
     @IBOutlet var _subTitle:UILabel!
@@ -46,9 +46,8 @@ class TKTweetTableViewCell: UITableViewCell {
         
         if let time = TimeInterval.init(tweet.tweet_id!){
             let now = NSDate().timeIntervalSince1970;
-            print("time -> \(now - time)")
-            // highligh color for tweet recent 20's
-            if now - time < 20.0{
+            // highlight color for tweet recent 20's
+            if now - time < kTimeHighlightTweetRecent{
                 self._bgView.backgroundColor = kTweetBackgroundColorHighlight;
             }else{
                 self._bgView.backgroundColor = kTweetBackgroundColor;
